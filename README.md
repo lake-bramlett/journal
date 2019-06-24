@@ -22,7 +22,7 @@ _'Journal' is a client-side program allows the user to type and log journal entr
 | create add button for user to click when journal entry is complete | click Add button | journal text is assigned to a variable |
 | text input field for header | user inputs header for journal entry | inputted text appears in text box while user types |
 | refactor Add button to submit header in connection to journal entry text | user clicks Add button | header text is recorded with journal entry text in variable |
-| clicking 'add' button will create object for journal entry with key values based on text field, header input, and distinguishing ID. | user fills text field input, user fills header input, user clicks 'add' | new 'Entry' object created with values of inputted text and assigned a unique ID. |
+| clicking 'add' button will create object for journal entry with key values based on text field and header input. | user fills text field input, user fills header input, user clicks 'add' | new 'Entry' object created with values of inputted text. |
 | Entry object method displays number of words in the journal body on page | 'This is my blog entry' | Words: 5 |
 | Entry object method displays number of vowels in the journal body on page | 'This is my blog entry' | Vowels: 5 |
 | Entry object method displays number of consonants in the journal body on page | 'This is my blog entry' | Consonants: 11 |
