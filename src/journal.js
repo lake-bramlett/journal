@@ -1,9 +1,28 @@
-export function Journal (entry) {
-  this.entry = entry;
-}
+// export function Journal (entries) {
+//   this.entries = [];
+// }
+//
+// Journal.prototype.addEntry = function(entry) {
+//   var notes = this.entries;
+//
+//   notes.push(entry);
+//   console.log(notes);
+//   this.entries.push(entry);
+// }
 
-export function Entry (entryID, date, log) {
-  this.entryID = entryID;
-  this.date = date;
+//
+// Journal.prototype.addEntry = function(log) {
+//   log.id = this.assignId();
+//   this.log.push(log);
+// }
+
+export function Entry (title, log) {
+  this.title = title;
   this.log = log;
 }
+
+
+// Entry.prototype.assignId = function() {
+//   this.entryID += 1;
+//   return this.entryID;
+// }
